@@ -23,7 +23,7 @@ const config = {
     "Spline",
     "Framer Motion",
   ],
-  author: "Ven",
+  author: "Venn",
   email: "linhm6657@gmail.com",
   site: "dev.com",
 

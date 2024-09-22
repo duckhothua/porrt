@@ -24,7 +24,7 @@ export async function POST(req: Request) {
       return Response.json({ error: zodError?.message }, { status: 400 });
 
     const { data: resendData, error: resendError } = await resend.emails.send({
-      from: "linhm6657@gmail.com",
+      from: "<noreply@vendepzai.vercel.app>",
       to: [config.email],
       subject: "Contact me from portfolio",
       react: EmailTemplate({
